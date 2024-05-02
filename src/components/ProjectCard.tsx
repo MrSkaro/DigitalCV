@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function ProjectCard(props) {
+export default function ProjectCard(props: any) {
     const { project, index } = props
     return (
         <div className={'flex flex-col md:grid md:grid-cols-2 justify-center items-center'}>

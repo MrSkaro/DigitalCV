@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link"
 import DescriptionMap from "../components/DescriptionMap"
 
-function SectionHeaderText(props) {
+function SectionHeaderText(props: any) {
   const { children } = props
   return(
     <h4 className='pb-5 text-xl font-semibold text-slate-200'>{children}</h4>
