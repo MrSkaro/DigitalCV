@@ -19,7 +19,7 @@ export default function Home() {
   const skills = [
     {name: 'JavaScript', content: ['React', 'Node.js']},
     {name: 'Python', content: ['Data Analysis', 'Django', 'Flask', 'Data Visualisation']},
-    {name: 'Web', content: ['TailwindCSS', 'Netlify', 'NoSQL', 'SQL', 'GIT']}
+    {name: 'Web', content: ['TailwindCSS', 'Netlify', 'NoSQL', 'SQL', 'GIT', 'Express', 'Firebase', 'Stripe integration']}
   ]
 
   const work = [
